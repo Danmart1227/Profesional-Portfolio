@@ -1,0 +1,67 @@
+
+.container {
+    
+    width: 100%;
+    text-align: center;
+    position: relative;
+    clip-path: polygon(100% 90%, 50% 100%, 0 90%, 0 0, 50% 10%, 100% 0);
+    height: 1280px;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    
+}
+
+
+.titlecontainer {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    position: relative;
+
+}
+
+.subtitlecontainer {
+    
+    margin-left: auto;
+    margin-right: auto;
+    top: 57%;
+    position: relative;
+    
+
+}
+
+
+.imgcontainer {
+    
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    position: relative;
+    opacity: 80%;
+
+}
+
+.animationcontainer{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.carouselcontainer{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+
+

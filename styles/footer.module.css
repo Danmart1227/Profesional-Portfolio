@@ -1,0 +1,73 @@
+.container {
+    clip-path: polygon(100% 90%, 50% 100%, 0 90%, 0 0, 50% 10%, 100% 0);
+    background-color: black;
+    width: auto;
+    height: 450px;
+    position: relative;
+    text-align: center;    
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #fff;
+    text-shadow: 0 3px 3px #58CF68;
+}
+
+.pandaimage{
+    position: relative;
+    top: 15%;
+    margin-bottom: 10px; 
+    
+}
+
+.icons {
+    
+    position: relative;
+    top: 25%; 
+    
+}
+
+.icons i {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+}
+
+.icons i:hover{
+    color: #58CF68;
+}
+
+.list {
+    
+    
+    color: #fff;
+    text-shadow: 0 3px 3px #58CF68;
+    top: 30%;
+    position: absolute;
+    padding: 5px;
+    
+}
+
+
+.list h2 {
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.list li {
+    margin-top: 10px;
+
+}
+
+.list a:hover{
+    color:#58CF68;
+}
+
+
+.text {
+    font-size: 0.7rem;
+    position: relative;
+    
+}
+
+ 
