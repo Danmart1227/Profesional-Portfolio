@@ -5,6 +5,7 @@ import Avatar from '../images/avatar.png'
 
 export default function BorderAnimation() {
     return (
+        
         <div className={styles.box}>
             <div className={styles.content}>
                 <Image className={styles.img} src={Avatar} alt="avatar image" width={450} height={450}/>
@@ -17,5 +18,6 @@ export default function BorderAnimation() {
                 </div>
             </div>
         </div>
+       
     )
 }

@@ -53,8 +53,14 @@
     position: absolute;
     padding: 0;
     right: 30px;
- 
-       
+    top: 50px;
+    
+}
+
+@media (max-width: 968px){
+    .flagimage{
+        top: 63%;
+    }
 }
 
 

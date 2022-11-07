@@ -1,0 +1,30 @@
+.container{
+    margin: 50px 80px;
+    position: relative;
+    padding: 15px 35px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba( 255, 255, 255, 0.15 ); 
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid #58CF68;
+    border-radius: 10px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 0 3px 3px #000;
+    transition: 0.4s;
+    
+    
+}
+
+.container:hover {
+    background-color: #fff;
+    color: #000;
+    text-shadow: 0 3px 3px #58CF68;
+}
+
+.text {
+padding-top: 5%;
+padding-left: 25px;
+}

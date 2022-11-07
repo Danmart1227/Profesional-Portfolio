@@ -12,3 +12,32 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     
 }
+
+.slider {
+    padding-top: 650px;
+}
+
+.text {
+    position: absolute;
+    top: 37%;
+    left: 30px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+@media (max-width: 968px){
+    .text{
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 600px){
+    .text{
+        margin-left: 8%;
+    }
+}
+

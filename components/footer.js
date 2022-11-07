@@ -39,9 +39,9 @@ export default function Footer () {
                     </div>
 
 
-            <div style={{textAlign:"left"}} className={styles.list}>
+            <div style={{textAlign:"left", left:"15px"}} className={styles.list}>
                 <h2>Network</h2>
-                    <ul>
+                    <ul style={{margin:"0", padding:"0"}}>
                         <a href="https://www.behance.net/danielmaren">
                         <li>Behance</li>
                         </a>
