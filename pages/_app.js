@@ -1,11 +1,18 @@
 import Head from "next/head";
-import Script from "next/script";
 import '../styles/globals.css'
+import { AnimatePresence } from "framer-motion";
 import Layout from '../components/layout'
+
+
 
 export default function MyApp({ Component, pageProps }) {
   return (
+
+    
+    
     <Layout>
+    <AnimatePresence exitBeforeEnter>
+    
      <Head>
         <title>Daniel Martinez Website</title>
         <meta name="description" content="Daniel Martinez portfolio website" />  
@@ -21,6 +28,9 @@ export default function MyApp({ Component, pageProps }) {
       </script>
               
       <Component {...pageProps} />
+      
+      </AnimatePresence>
     </Layout>
+    
   )
 }

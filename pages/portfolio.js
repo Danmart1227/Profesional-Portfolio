@@ -1,12 +1,36 @@
+import { useState, useEffect } from 'react'
+import { motion } from 'framer-motion'
 import styles from '../styles/Portfolio.module.css'
+import Image from 'next/image'
 import Subtitle from '../components/subtitle'
-import Button from '../components/button'
 import Text from '../components/text'
-import buttoninfo from '../components/buttonInfo'
-import skillbarInfo from '../components/skillbarWebInfo'
-import cardWebInfo from '../components/cardWebInfo'
+import buttonInfo from '../components/buttonInfo'
+import skillbarInfo from '../components/skillbarInfo'
+import portfolioInfo from '../components/portfolioInfo'
 import Skillbar from '../components/skillbar'
 import Card from '../components/card'
+
+
+/*frame motion*/
+
+const easing = [.5, -.05, 0.02, 0.99]
+
+const fadeInOut = {
+  initial: {
+    y: 30,
+    opacity:0.2
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: .5,
+      ease: easing
+    }
+
+  }
+}
+
 
 
 
@@ -14,14 +38,9 @@ import Card from '../components/card'
 
 const rowStyling = {
     position:"relative", 
-    top:"40%",
+    top:"35%",
     textAlign:"center",
     
-  }
-
-  const colStyling ={
-    position:"absolute",
- 
   }
 
   /*Card columns and row styling*/
@@ -38,51 +57,79 @@ const rowStyling = {
   }
 
 
-  /*Button mapping function*/
-
-function createButton(info) {
-    return <Button
-    name={info.name}
-    img={info.img}
-    />
-}
-
-
-  /*Skill Bar mapping function*/
-
-  function createSkillBar (skill) {
-    return <Skillbar
-    title= {skill.firstSkill}
-    subtitle= {skill.secondSkill}
-    percentage= {skill.value}
-    />
-}
-
-
-
-
-
-
 export default function Portfolio() {
+
+  /*Hooks*/
+
+      const [filter, setFilter] = useState('development');
+
+      const [projects, setProjects] = useState([]);
+
+      const [skills, setSkills] = useState([]);
+
+      const [isActive, setActive] = useState({activeObject: null});
+
+      /*Skills*/
+      useEffect(() => {
+        setSkills(skillbarInfo);
+        }, []);
+        useEffect(() => {
+        setSkills([]);
+        const filtered = skillbarInfo.map(p => ({ ...p, filtered: p.category.includes(filter) }));
+        setSkills(filtered);
+        }, [filter]);
+
+      /*Projects*/
+      useEffect(() => {
+        setProjects(portfolioInfo);
+        }, []);
+        useEffect(() => {
+        setProjects([]);
+        const filtered = portfolioInfo.map(p => ({ ...p, filtered: p.category.includes(filter) }));
+        setProjects(filtered);
+        }, [filter]);
+
+      
+
     return (
 
         
-        <main>
-            <section className={styles.container}>
+      <motion.main exit={{opacity: 0}} initial="initial" animate="animate" >
+            <motion.section variants={fadeInOut} className={styles.container}>
+
+            
             
               <div className="row" style={rowStyling}>
-                <div className="col" style={colStyling}>
-                    {buttoninfo.map(createButton)}
-                </div>
-              </div> 
+          
+                
+                {buttonInfo.map(item =>(
+
+                  <div className='col-lg-4'>
+
+                  <button className={item.id === isActive.activeObject ? `${styles.btnactive}`: `${styles.btncontainer}`} 
+                    active={filter === item.category} 
+                    onClick={() => {setFilter(item.category); 
+                    setActive({...isActive, activeObject: item.id});
+                    }} >
+
+                    <div >
+                            <Image src={item.img} alt='Logo' width={60} height={60}/>
+                        <div >
+                          {item.name}
+                        </div>
+                    </div>
+                    </button>
+                  </div>
+                ))}
+
+            </div>
+            
+
 
               <div className={styles.subtitlecontainer}>
                 <Subtitle subtitle = "What type of projects would you like to check?"/>
               </div>      
-            </section>
-
-                
-
+            </motion.section>
 
             <section>
                   <div>
@@ -92,7 +139,15 @@ export default function Portfolio() {
                   </div>
               
                     <div className={styles.barcontainer}>
-                      {skillbarInfo.map(createSkillBar)}
+                    {skills.map(item => item.filtered === true ? (
+                               
+                              <Skillbar
+                              title= {item.firstSkill}
+                              subtitle= {item.secondSkill}
+                              percentage= {item.value}
+                              />
+                            
+                           ): '')}
                     </div>
 
             </section>
@@ -107,23 +162,26 @@ export default function Portfolio() {
                   </div>
 
                         <div className='row' style={rowStyle}>
-                            {cardWebInfo.map(card => {
-                              return (
-                                <div className='col-lg-4 col-md-6 col-sm-6' style={colStyle}>
+                            {projects.map(item => item.filtered === true ? (
+                               
+                                <motion.div 
+                                whileHover={{scale: 1.1}} 
+                                className='col-lg-4 col-md-6 col-sm-6' 
+                                style={colStyle}>
                                   <Card
-                                    img={card.img}
-                                    title= {card.title}
-                                    text= {card.text}
-                                    link= {card.link}
-                                    btnText={card.btnText}
+                                    img={item.img}
+                                    title= {item.title}
+                                    text= {item.text}
+                                    link= {item.link}
+                                    btnText={item.btnText}
                                   />
-                                </div>
-                              );
-                            })}
+                                </motion.div>
+                             
+                            ): '')}
                         </div>
                       
             </section>
 
-        </main>
+        </motion.main>
     )
 }

@@ -18,7 +18,7 @@ import "swiper/css/pagination";
 
 const imgStyle = {
 borderRadius:"20px",
-opacity:"0.8"
+opacity:"0.7"
 }
 
 

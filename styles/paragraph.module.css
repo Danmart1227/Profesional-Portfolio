@@ -10,5 +10,6 @@
 @media (max-width:960px){
     .text{
         text-align: center;
+        font-size: 2rem;
     }
 }

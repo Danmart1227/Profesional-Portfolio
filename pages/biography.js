@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 import Mario from '../images/mario.gif'
 import Charmander from '../images/charmander.gif'
 import Bulbasur from '../images/bulbasur.gif'
@@ -9,13 +10,34 @@ import Text from '../components/text'
 import Paragraph from '../components/paragraph'
 
 
+/*frame motion*/
+
+const easing = [.5, -.05, 0.02, 0.99]
+
+const fadeInOut = {
+  initial: {
+    y: 30,
+    opacity:0.2
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: .5,
+      ease: easing
+    }
+
+  }
+}
+
+
 
 export default function Biography() {
     return (
    
-        <main>
+        <motion.main exit={{opacity: 0}} initial="initial" animate="animate" >
 
-            <section className={styles.container}>
+        <motion.section variants={fadeInOut} className={styles.container}>
                 <div className={styles.text}>
                     <Text
                     text="Some Pictures..."
@@ -25,7 +47,7 @@ export default function Biography() {
                 <div className={styles.slider}>
                     <Slider/>
                 </div>
-            </section>
+            </motion.section>
 
             <section>
                 <div className={styles.paragraph}>
@@ -47,8 +69,8 @@ export default function Biography() {
                     <div className="col-lg-6" style={{textAlign:"center"}} >
                         <Paragraph
                         text="I had a very normal upbringing, but at a very young age I was already 
-                        interested in how technology and multimedia can combine to develope such amazing product
-                        (of course, for the seven year old me, I was just playing Mario XD)."
+                        interested in technology and multimedia, I wasn't clear about my future though.
+                        (of course, just seven year old me playing Mario XD)."
                         />                    
                  </div>
                 
@@ -66,8 +88,9 @@ export default function Biography() {
 
                 <div className={styles.paragraph}>
                     <Paragraph
-                    text="But of course, I had a lot of interests I'd love to dive into. 
-                    I love acting, music and animals, but sometimes we have to make a choice..."
+                    text="Finally, I love spending my time playing music,
+                     I'm attratcted to all kinds of traditional art and, of course, I love programming
+                    (the bigger the path, the bigger the choice...)."
                     />                    
                 </div>
 
@@ -85,6 +108,6 @@ export default function Biography() {
 
             </section>
 
-            </main>
+            </motion.main>
     )
 }

@@ -12,3 +12,71 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     
 }
+
+.titlecontainer {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+    position: relative;
+    
+
+}
+
+.subtitlecontainer {
+    
+    margin-left: auto;
+    margin-right: auto;
+    top: 35%;
+    position: relative;    
+
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 45%; 
+    
+}
+
+.icons i {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   
+    
+}
+
+.icons i:hover{
+    color: #58CF68;
+}
+
+.form {
+    text-align: center;
+}
+
+.field {
+    width: 80%;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 3px 3px 0 #58CF68;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    
+}
+
+.text {
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-top: 30px;
+}
+

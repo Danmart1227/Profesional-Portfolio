@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from "/styles/navbar.module.css"
 import ProfilePic from "/images/profileavatar.jpg"
-import FlagImg from "/images/united-kingdom.png"
+
 
 
 
@@ -14,15 +14,13 @@ export default function Header() {
 
       
 
-    <div className={styles.container}>
+    <div className={styles.box}>
    
         <div className={styles.avatarimage}>
         <Image src={ProfilePic} alt="avatar image img" width={150} height={150} style={{borderRadius:"50%"}} />
         </div>
   
-        <div className={styles.flagimage}>
-        <Image src={FlagImg} alt="united kingdom img" width={60} height={40} />
-        </div>
+        
 
          
         
@@ -30,7 +28,7 @@ export default function Header() {
 
             <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon">
-                    <i class="fas fa-bars" style={{color:"#58CF68", fontSize:"28px"}}></i>
+                    <i class="fas fa-bars" style={{color:"#fff", fontSize:"28px"}}></i>
                 </span>
             </button>
             
@@ -47,12 +45,7 @@ export default function Header() {
                     <a className="nav-link">Portfolio</a>
                 </li>
                 </Link>
-
-                <Link href='/blog'>
-                <li className="nav-item">
-                    <a className="nav-link">Blog</a>
-                </li>
-                </Link>
+            
 
                 <Link href='/biography'> 
                 <li className="nav-item">

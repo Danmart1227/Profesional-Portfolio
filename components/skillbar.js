@@ -14,8 +14,8 @@ export default function Skillbar(props) {
                         {props.percentage}
                     </div>   
 
-            <div className="progress" style={{height:"20px"}}>                    
-                <div className="progress-bar bg-black progress-bar-striped progress-bar-animated" 
+            <div className="progress bg-gray-200" style={{height:"20px"}}>                    
+                <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" 
                 role="progressbar" 
                 style={{width:props.percentage}} 
                 aria-label="Basic example" 

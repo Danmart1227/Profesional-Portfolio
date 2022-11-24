@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { animate, motion } from 'framer-motion'
 import Title from '../components/title.js'
 import Subtitle from '../components/subtitle'
 import Paragraph from '../components/paragraph'
@@ -14,18 +15,39 @@ const textStyle = {
   paddingLeft:"3%"
 }
 
+/*frame motion*/
+
+const easing = [.5, -.05, 0.02, 0.99]
+
+const fadeInOut = {
+  initial: {
+    y: 30,
+    opacity:0.2
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: .5,
+      ease: easing
+    }
+
+  }
+}
+
 
 export default function Home() {
   return (
 
-      <main >
-        <section style={{backgroundColor:"black", paddingTop: "0"}} className={styles.container}>
+      <motion.main exit={{opacity: 0}} initial="initial" animate="animate" >
+
+        <motion.section variants={fadeInOut} style={{backgroundColor:"black", paddingTop: "0"}} className={styles.container}>
           <div className={styles.titlecontainer}><Title title = "Loading..."/></div>
           <div className={styles.imgcontainer}>
               <Image src={SansImg} alt="Sans animated gif" width={200} height={200} /> 
             </div>
             <div className={styles.subtitlecontainer}><Subtitle subtitle = "(Scroll Down To Continue)"/></div>
-        </section>
+        </motion.section>
 
         <section className={styles.container}>
 
@@ -33,7 +55,7 @@ export default function Home() {
 
             <div className="col-lg-6" style={textStyle}>
               <Paragraph text="Hello, I am Daniel and welcome to my world.
-               You'll be able to find everething related with my work."/>              
+               You'll be able to find everything related to my work."/>              
             </div>
 
             <div className="col-lg-6" >              
@@ -71,8 +93,8 @@ export default function Home() {
           <div className="row">
 
             <div className="col-lg-12" >
-              <Paragraph text="Thanks for your time. 
-              if you'd like to learn more don't forget to reach me out on social media."/>
+              <Paragraph text="Thank you for your time. 
+              if you'd like to learn more about me don't forget to reach me out on social media."/>
             </div>
 
             <div style={{marginTop:"70px"}}>
@@ -92,7 +114,7 @@ export default function Home() {
 
         </section>
  
-      </main>
+      </motion.main>
 
       
     

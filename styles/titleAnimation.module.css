@@ -64,3 +64,9 @@
     transform: translate(-22px,5px) skew(21deg); 
   }
 }
+
+@media (max-width: 968px){
+  .container{
+      font-size: 5rem;
+  }
+}
