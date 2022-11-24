@@ -166,9 +166,11 @@ export default function Portfolio() {
                                
                                 <motion.div 
                                 whileHover={{scale: 1.1}} 
+                                key={item.key}
                                 className='col-lg-4 col-md-6 col-sm-6' 
                                 style={colStyle}>
                                   <Card
+                                    
                                     img={item.img}
                                     title= {item.title}
                                     text= {item.text}

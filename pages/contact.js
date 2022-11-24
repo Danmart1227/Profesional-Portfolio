@@ -34,7 +34,7 @@ const fadeInOut = {
 
 const Result =() =>{
     return(
-        <p>Sent!, I'll contact you soon.</p>
+        <p>Sent!, I&apos;ll contact you soon.</p>
     )
 }
 
@@ -67,7 +67,7 @@ export default function Contact() {
                 </div>
                 <div className={styles.subtitlecontainer}>
                     <Subtitle
-                    subtitle="(or reach me out on social media)"
+                    subtitle="(or reach out to me on social media)"
                     />
                 </div>
                 <div className={styles.icons}>
