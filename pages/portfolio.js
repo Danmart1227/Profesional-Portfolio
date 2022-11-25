@@ -104,7 +104,7 @@ export default function Portfolio() {
                 
                 {buttonInfo.map(item =>(
 
-                  <div className='col-lg-4'>
+                  <div key={item.id} className='col-lg-4'>
 
                   <button className={item.id === isActive.activeObject ? `${styles.btnactive}`: `${styles.btncontainer}`} 
                     active={filter === item.category} 
@@ -141,7 +141,9 @@ export default function Portfolio() {
                     <div className={styles.barcontainer}>
                     {skills.map(item => item.filtered === true ? (
                                
+                              
                               <Skillbar
+                              key={item.id}
                               title= {item.firstSkill}
                               subtitle= {item.secondSkill}
                               percentage= {item.value}
@@ -166,7 +168,7 @@ export default function Portfolio() {
                                
                                 <motion.div 
                                 whileHover={{scale: 1.1}} 
-                                key={item.key}
+                                key={item.id}
                                 className='col-lg-4 col-md-6 col-sm-6' 
                                 style={colStyle}>
                                   <Card

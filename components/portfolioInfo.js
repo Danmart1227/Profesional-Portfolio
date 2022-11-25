@@ -17,6 +17,7 @@ import Elf from '../images/illustration/darkelf.jpg'
 const card = [
     {
         key: 1,
+        id: 1,
         img: Img,
         title: "My world",
         text: "Personal portfolio, next js, framer motion",
@@ -26,6 +27,7 @@ const card = [
     },
     {
         key: 2,
+        id: 2,
         img: Simon,
         title: "Simon Game Clone",
         text: "Hasbro Game clone, javascript, game",
@@ -35,6 +37,7 @@ const card = [
     },
     {
         key: 3,
+        id: 3,
         img: Notes,
         title: "Take Notes",
         text: "Notes app, React Js",
@@ -44,6 +47,7 @@ const card = [
     },
     {
         key: 4,
+        id: 4,
         img: Dog,
         title: "Dog Love",
         text: "Landing Page, Bootstrap",
@@ -54,6 +58,7 @@ const card = [
 
     {
         key: 5,
+        id: 5,
         img: Panda,
         title: "Panda Flow Blog",
         text: "Node Js, EJS, MongoDB",
@@ -63,6 +68,7 @@ const card = [
     },
     {
         key: 6,
+        id: 6,
         img: Notes,
         title: "Take Notes",
         text: "Notes app, React Js",
@@ -74,6 +80,7 @@ const card = [
 
     {
         key: 7,
+        id: 7,
         img: Acs,
         title: "Alaman Cyber Security",
         text: "case study, landing page design",
@@ -84,6 +91,7 @@ const card = [
 
     {
         key: 8,
+        id: 8,
         img: Sarah,
         title: "Sarah Fashion Store",
         text: "case study, e-commerce design",
@@ -94,6 +102,7 @@ const card = [
 
     {
         key: 9,
+        id: 9,
         img: Amazon,
         title: "Amazon Prime Video - Redesign",
         text: "prototype, amazon video plattform redesign",
@@ -103,6 +112,7 @@ const card = [
     },
     {
         key: 10,
+        id: 10,
         img: Healthy,
         title: "Healthy Bites",
         text: "prototype, app UI design",
@@ -112,6 +122,7 @@ const card = [
     },
     {
         key: 11,
+        id: 11,
         img: AcsLogo,
         title: "ACS",
         text: "logo design, mockup",
@@ -121,6 +132,7 @@ const card = [
     },
     {
         key: 12,
+        id: 12,
         img: Wolves,
         title: "Wolverhampton",
         text: "logo redesign, mockup",
@@ -130,6 +142,7 @@ const card = [
     },
     {
         key: 13,
+        id: 13,
         img: Dominos,
         title: "Domino's",
         text: "logo redesign, mockup",
@@ -139,6 +152,7 @@ const card = [
     },
     {
         key: 14,
+        id: 14,
         img: Agony,
         title: "Agony",
         text: "vectorial illustration, abstract art",
@@ -148,6 +162,7 @@ const card = [
     },
     {
         key: 15,
+        id: 15,
         img: Gnome,
         title: "Gnome",
         text: "vectorial illustration, child's book illustration",
@@ -157,6 +172,7 @@ const card = [
     },
     {
         key: 16,
+        id: 16,
         img: Elf,
         title: "Dark Elf",
         text: "vectorial illustration",
