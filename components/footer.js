@@ -21,18 +21,18 @@ export default function Footer () {
 
                     <div className={styles.icons}>
 
-                    <a href="https://www.facebook.com/profile.php?id=100074436124199">
+                    <a rel="noopener" href="https://www.facebook.com/profile.php?id=100074436124199">
                         <i class="fa-brands fa-square-facebook fa-3x"></i>
                     </a>
 
-                    <a href="https://twitter.com/dvoidd1999">
+                    <a rel="noopener" href="https://twitter.com/dvoidd1999">
                         <i class="fa-brands fa-square-twitter fa-3x"></i>
                     </a>
 
-                    <a href="https://www.instagram.com/dvoidesign/">
+                    <a rel="noopener" href="https://www.instagram.com/dvoidesign/">
                         <i class="fa-brands fa-square-instagram fa-3x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/daniel-martinez-42634a249/">
+                    <a rel="noopener" href="https://www.linkedin.com/in/daniel-martinez-42634a249/">
                         <i class="fa-brands fa-linkedin fa-3x"></i>
                     </a>
 
@@ -42,18 +42,18 @@ export default function Footer () {
             <div style={{textAlign:"left", left:"15px"}} className={styles.list}>
                 <h2>Network</h2>
                     <ul style={{margin:"0", padding:"0"}}>
-                        <a href="https://www.behance.net/danielmaren">
+                        <a rel="noopener" href="https://www.behance.net/danielmaren">
                         <li>Behance</li>
                         </a>
-                        <a href="https://dribbble.com/DanMart">
+                        <a rel="noopener" href="https://dribbble.com/DanMart">
                         <li>Dribble</li>
                         </a>
 
-                        <a href="https://stackoverflow.com/users/20404951/daniel-martinez">
+                        <a rel="noopener" href="https://stackoverflow.com/users/20404951/daniel-martinez">
                         <li>StackOverflow</li>
                         </a>
 
-                        <a href="https://github.com/Danmart1227">
+                        <a rel="noopener" href="https://github.com/Danmart1227">
                         <li>Github</li>
                         </a>
 
