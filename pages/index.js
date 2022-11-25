@@ -94,7 +94,7 @@ export default function Home() {
 
             <div className="col-lg-12" >
               <Paragraph text="Thank you for your time. 
-              if you'd like to learn more about me don't forget to reach me out on social media."/>
+              if you'd like to learn more about me don't forget to reach out to me on social media."/>
             </div>
 
             <div style={{marginTop:"70px"}}>

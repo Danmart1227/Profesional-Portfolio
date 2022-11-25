@@ -26,9 +26,10 @@
     text-align: center;
     padding-bottom: 20px;
     margin-top: 50px;
-    background: #000; 
+    background: rgba( 255, 255, 255, 0.15 ); 
     backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid #58CF68
 }
 
 .btncontainer{
@@ -78,5 +79,11 @@
 @media (max-width: 968px){
     .subtitlecontainer{
         top: -30%;
+    }
+}
+
+@media (max-width: 410px){
+    .subtitlecontainer{
+        top: -40%;
     }
 }

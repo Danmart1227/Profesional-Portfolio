@@ -70,3 +70,10 @@
       font-size: 5rem;
   }
 }
+
+@media (max-width:410px){
+  .container{
+      text-align: center;
+      font-size: 4rem;
+  }
+}

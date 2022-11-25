@@ -41,3 +41,10 @@
     }
 }
 
+@media (max-width: 410px){
+    .text{
+        top: 15%;
+        margin-left: 5px;
+    }
+}
+

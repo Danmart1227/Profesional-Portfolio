@@ -90,7 +90,7 @@ export default function Biography() {
                     <Paragraph
                     text="Finally, I love spending my time playing music,
                      I'm attratcted to all kinds of traditional art and, of course, I love programming
-                    (the bigger the path, the bigger the choice...)."
+                    (the greater the path, the greater the choice...)."
                     />                    
                 </div>
 

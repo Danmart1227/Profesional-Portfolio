@@ -12,8 +12,8 @@ export default function Button (props) {
 
     return (
 
-        
-        <button className={styles.container} >
+        <a rel="noopener" href={props.link}>
+        <button className={styles.container} style={props.style} >
 
             <div >
                     <Image src={props.img} alt={props.altText} width={60} height={60}/>
@@ -22,5 +22,6 @@ export default function Button (props) {
                 </div>
             </div>
         </button>
+        </a>
     )
 }

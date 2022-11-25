@@ -32,6 +32,16 @@
 
 }
 
+.barcontainer {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background: rgba( 255, 255, 255, 0.15 ); 
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid #58CF68
+}
+
 .icons {
     margin-left: auto;
     margin-right: auto;
@@ -78,5 +88,17 @@
 
 .button {
     margin-top: 30px;
+}
+
+@media (max-width:410px){
+    .titlecontainer{
+        top: 10%;
+    }
+    .subtitlecontainer{
+        top: 20%;
+    }
+    .icons{
+        top: 30%;
+    }
 }
 

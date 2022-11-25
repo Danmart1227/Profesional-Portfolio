@@ -5,6 +5,10 @@ import Subtitle from '../components/subtitle'
 import Text from '../components/text'
 import Button from '../components/button'
 import Submit from '../images/icons/submit.svg'
+import Behance from '../images/icons/behance.svg'
+import Dribble from '../images/icons/dribble.svg'
+import StackOverflow from '../images/icons/stackoverflow.svg'
+import Github from '../images/icons/github.svg'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react'
 
@@ -128,12 +132,66 @@ export default function Contact() {
                             name= "Submit"
                             img= {Submit}
                             altText= "submit img"
-                            type="submit"
                             />
                         </div>
                     </form>
 
                 </div>
+
+                
+                <div className={styles.barcontainer}>
+                <div className={styles.text}>
+                            <Text 
+                            text= "My Network"   
+                            />
+                        </div>
+
+                    <div className='row' style={{textAlign:"center"}}>
+                    
+
+                        <div className='col-lg-3 col-md-3 col-sm-6'>
+                        <Button
+                            name= "Behance"
+                            img= {Behance}
+                            link="https://www.behance.net/danielmaren"
+                            altText= "behance img"
+                            style = {{backgroundColor:'#000', color:"#58CF68"}}   
+                            />
+                        </div>
+                        
+                        <div className='col-lg-3 col-md-3 col-sm-6'>
+                        <Button
+                            name= "Dribble"
+                            img= {Dribble}
+                            link="https://dribbble.com/DanMart"
+                            altText= "dribble img"
+                            style = {{backgroundColor:'#000', color:"#58CF68"}}   
+                            />
+                        </div>
+                        
+                        <div className='col-lg-3 col-md-3 col-sm-6'>
+                        <Button
+                            name= "Stackoverflow"
+                            img= {StackOverflow}
+                            link="https://stackoverflow.com/users/20404951/daniel-martinez"
+                            altText= "stackoverflow img"
+                            style = {{backgroundColor:'#000', color:"#58CF68"}}   
+                            />
+                        </div>
+                        
+                        <div className='col-lg-3 col-md-3 col-sm-6'>
+                        <Button
+                            name= "Github"
+                            img= {Github}
+                            link="https://github.com/Danmart1227"
+                            altText= "Github img"
+                            style = {{backgroundColor:'#000', color:"#58CF68"}}   
+                            />
+                        </div>
+
+                    </div>
+                    </div>
+
             </section>
             
         </motion.main>

@@ -64,5 +64,12 @@
     
 }
 
+@media  (max-width: 410px) {
+    .container{
+        padding-top: 40%;
+    }
+    
+  }
+
 
 
