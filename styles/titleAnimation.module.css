@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width:410px){
+@media (max-width:480px){
   .container{
       text-align: center;
       font-size: 4rem;

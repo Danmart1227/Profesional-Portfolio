@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width: 410px){
+@media (max-width: 480px){
     .text{
         top: 15%;
         margin-left: 5px;

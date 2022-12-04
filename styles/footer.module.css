@@ -44,6 +44,7 @@
     top: 30%;
     position: absolute;
     padding: 5px;
+    list-style: none;
     
 }
 
@@ -70,7 +71,7 @@
     
 }
 
-@media (max-width:410px){
+@media (max-width:510px){
     .list{
         display: none;
     }

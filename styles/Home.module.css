@@ -64,7 +64,7 @@
     
 }
 
-@media  (max-width: 410px) {
+@media  (max-width: 480px) {
     .container{
         padding-top: 40%;
     }

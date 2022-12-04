@@ -101,11 +101,12 @@ margin-left: 25%;
   }
 }
 
-@media  (max-width: 410px) {
+@media  (max-width: 620px) {
   .box{
 width: 400px;
 height: 400px;
-margin-left: 5px;
+margin-left: auto;
+margin-right: auto;
   }
   .text span{
     font-size: 1.5rem;

@@ -66,17 +66,7 @@ const card = [
         link: "https://github.com/Danmart1227/Panda-Blog",
         category: "development",
     },
-    {
-        key: 6,
-        id: 6,
-        img: Notes,
-        title: "Take Notes",
-        text: "Notes app, React Js",
-        btnText: "Check Code",
-        link: "https://github.com/Danmart1227/Take-notes-app",
-        category: "development",
-    },
-
+    
 
     {
         key: 7,

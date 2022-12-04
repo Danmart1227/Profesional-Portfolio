@@ -82,7 +82,7 @@
     }
 }
 
-@media (max-width: 410px){
+@media (max-width: 480px){
     .subtitlecontainer{
         top: -40%;
     }
