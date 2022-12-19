@@ -12,7 +12,7 @@ export default function Button (props) {
 
     return (
 
-        <a rel="noopener" href={props.link}>
+        <a target="_blank" rel="noopener noreferrer" href={props.link}>
         <button className={styles.container} style={props.style} >
 
             <div >

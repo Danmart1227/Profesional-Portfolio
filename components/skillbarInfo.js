@@ -49,9 +49,9 @@ const skill = [
     {
         key: 6,
         id:6,
-        value: "65%",
-        firstSkill: "API",
-        secondSkill: "Web Security",
+        value: "35%",
+        firstSkill: "Blockchain",
+        secondSkill: "Motoko",
         category: "development",
 
     },

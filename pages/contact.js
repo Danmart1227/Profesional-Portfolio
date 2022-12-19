@@ -76,18 +76,18 @@ export default function Contact() {
                 </div>
                 <div className={styles.icons}>
 
-                    <a rel="noopener" href="https://www.facebook.com/profile.php?id=100074436124199">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100074436124199">
                         <i class="fa-brands fa-square-facebook fa-6x"></i>
                     </a>
 
-                    <a rel="noopener" href="https://twitter.com/dvoidd1999">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dvoidd1999">
                         <i class="fa-brands fa-square-twitter fa-6x"></i>
                     </a>
 
-                    <a rel="noopener" href="https://www.instagram.com/dvoidesign/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dvoidesign/">
                         <i class="fa-brands fa-square-instagram fa-6x"></i>
                     </a>
-                    <a rel="noopener" href="https://www.linkedin.com/in/daniel-martinez-42634a249/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-martinez-42634a249/">
                         <i class="fa-brands fa-linkedin fa-6x"></i>
                     </a>
 

@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
     <AnimatePresence exitBeforeEnter>
     
      <Head>
-        <title>Daniel Martinez Website</title>
+        <title>Daniel M. website</title>
         <meta name="description" content="Daniel Martinez portfolio website" />  
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         

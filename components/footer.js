@@ -21,18 +21,18 @@ export default function Footer () {
 
                     <div className={styles.icons}>
 
-                    <a rel="noopener" href="https://www.facebook.com/profile.php?id=100074436124199">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100074436124199">
                         <i class="fa-brands fa-square-facebook fa-3x"></i>
                     </a>
 
-                    <a rel="noopener" href="https://twitter.com/dvoidd1999">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dvoidd1999">
                         <i class="fa-brands fa-square-twitter fa-3x"></i>
                     </a>
 
-                    <a rel="noopener" href="https://www.instagram.com/dvoidesign/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dvoidesign/">
                         <i class="fa-brands fa-square-instagram fa-3x"></i>
                     </a>
-                    <a rel="noopener" href="https://www.linkedin.com/in/daniel-martinez-42634a249/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-mafla-developer/">
                         <i class="fa-brands fa-linkedin fa-3x"></i>
                     </a>
 
@@ -42,18 +42,18 @@ export default function Footer () {
             <div style={{textAlign:"left", left:"15px"}} className={styles.list}>
                 <h2>Network</h2>
                     <ul style={{margin:"0", padding:"0"}}>
-                        <a rel="noopener" href="https://www.behance.net/danielmaren">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/danielmaren">
                         <li>Behance</li>
                         </a>
-                        <a rel="noopener" href="https://dribbble.com/DanMart">
+                        <a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/DanMart">
                         <li>Dribble</li>
                         </a>
 
-                        <a rel="noopener" href="https://stackoverflow.com/users/20404951/daniel-martinez">
+                        <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/20404951/daniel-martinez">
                         <li>StackOverflow</li>
                         </a>
 
-                        <a rel="noopener" href="https://github.com/Danmart1227">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Danmart1227">
                         <li>Github</li>
                         </a>
 
@@ -81,7 +81,7 @@ export default function Footer () {
     
 
             <div style={{top:"35%"}} className={styles.text}>
-            <p>@ Copyright 2022 Daniel Martinez.</p>
+            <p>@ Copyright 2022 Daniel M.</p>
             </div>
 </div>
            

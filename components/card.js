@@ -30,7 +30,7 @@ export default function Card(props) {
                     <h5 className="card-title" style={title}>{props.title}</h5>
                     <hr style={{borderColor:"#fff"}}></hr>
                     <p className="card-text" style={text}>{props.text}</p>
-                    <a href={props.link} rel="noopener" className={styles.button}>{props.btnText}</a>
+                    <a href={props.link} target="_blank" rel="noopener noreferrer" className={styles.button}>{props.btnText}</a>
                 </div>
             </div>
   
