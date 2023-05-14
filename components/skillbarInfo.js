@@ -11,7 +11,7 @@ const skill = [
         key: 2,
         id:2,
         value: "85%",
-        firstSkill: "HTML, CSS, JAVASCRIPT",
+        firstSkill: "Html, Css, Javascript",
         secondSkill: "Cms Software",
         category: "development",
 

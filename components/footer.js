@@ -32,7 +32,7 @@ export default function Footer () {
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dvoidesign/">
                         <i class="fa-brands fa-square-instagram fa-3x"></i>
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-mafla-developer/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-martinez-developer/">
                         <i class="fa-brands fa-linkedin fa-3x"></i>
                     </a>
 
