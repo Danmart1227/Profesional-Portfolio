@@ -10,10 +10,10 @@ export default function BorderAnimation() {
             <div className={styles.content}>
                 <Image className={styles.img} src={Avatar} alt="avatar image" width={450} height={450}/>
                 <div className={styles.text}>
-                    <span>Web developer<br/>
-                    <span>Digital Artist</span>     
+                    <span>Internal Tools<br/>
+                    <span>Automations</span>     
                     <br/>
-                    <span>UX/UI Designer</span>
+                    <span>Integrations</span>
                     </span>
                 </div>
             </div>

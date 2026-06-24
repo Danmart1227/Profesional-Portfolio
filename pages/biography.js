@@ -59,7 +59,7 @@ export default function Biography() {
 
                 <div className={styles.paragraph}>
                     <Paragraph
-                    text="Hello, my name is Daniel Martinez, I'm a 23 year old colombian developer,
+                    text="Hello, my name is Daniel Martinez, I'm a 26 year old colombian developer,
                     and as I mention before, video games made a big part of what I am today."
                     />                    
                 </div>
@@ -82,7 +82,7 @@ export default function Biography() {
                 <div className={styles.paragraph}>
                     <Paragraph
                     text="Thanks to that interest I ended up signing to Multimedia Engineering major 
-                    (a.k.a Computer Science and Media Arts) that I'm currently working on."
+                    (a.k.a Computer Science and Media Arts) that I went on to complete."
                     />                    
                 </div>
 

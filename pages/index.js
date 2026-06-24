@@ -54,8 +54,8 @@ export default function Home() {
           <div className="row">
 
             <div className="col-lg-6" style={textStyle}>
-              <Paragraph text="Hello, I am Daniel and welcome to my world.
-               You'll be able to find everything related to my work."/>              
+              <Paragraph text="Hi, I'm Daniel — an Advanced Technical Support specialist
+               with a foundation in front-end programming. I enjoy building internal tools, automations, and API integrations. Here's a look at what I work on."/>              
             </div>
 
             <div className="col-lg-6" >              
@@ -71,10 +71,10 @@ export default function Home() {
             
 
             <div className="col-lg-6" style={textStyle}>
-              <Paragraph text="You will also get to know 
-              more about me, what I want, 
-              what I like, and what inspired me 
-              to do what I do."
+              <Paragraph text="Rather than box myself into one stack, 
+              I take a broad approach and keep learning across tools. 
+              You can browse the skills and tools I work with 
+              on the Portfolio page."
               style = {{textShadow:'0px 3px 3px #fff'}}  
               />
             </div>
@@ -93,19 +93,19 @@ export default function Home() {
           <div className="row">
 
             <div className="col-lg-12" >
-              <Paragraph text="Thank you for your time. 
-              if you'd like to learn more about me don't forget to reach out to me on social media."/>
+              <Paragraph text="Thanks for stopping by. 
+              If you'd like to get in touch, the contact page is the best way to reach me."/>
             </div>
 
             <div style={{marginTop:"70px"}}>
                 <div className="col-lg-12">
-                <Title title="Game Over"
+                <Title title="Let's Build"
                 style = {{textShadow:'0px 3px 3px #000', color:"#fff"}}  
                 />
                 </div>
 
                 <div className="col-12">
-                <Subtitle subtitle="(Hope I See You Soon!)"
+                <Subtitle subtitle="(Let's connect)"
                 />
                 </div>
               </div>

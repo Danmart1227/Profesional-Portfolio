@@ -1,4 +1,5 @@
 import Img from '../images/avatar.png'
+import Knox from '../images/development/knox.png'
 import Simon from '../images/development/simon.png'
 import Notes from '../images/development/notes.png'
 import Dog from '../images/development/dog.png'
@@ -16,6 +17,16 @@ import Gnome from '../images/illustration/gnome.jpg'
 import Elf from '../images/illustration/darkelf.jpg'
 
 const card = [
+    {
+        key: 17,
+        id: 17,
+        img: Knox,
+        title: "Knox MDM Manager",
+        text: "Python, REST, OAuth 2.0, httpx, in production",
+        btnText: "Check Code",
+        link: "https://github.com/Danmart1227/Knox-MDM-Manager",
+        category: "development",
+    },
     {
         key: 1,
         id: 1,
