@@ -26,7 +26,7 @@
     text-align: center;
     padding-bottom: 20px;
     margin-top: 50px;
-    background: rgba( 255, 255, 255, 0.15 ); 
+    background: #000000; 
     backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 5px );
     border: 1px solid #58CF68
