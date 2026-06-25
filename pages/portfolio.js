@@ -127,7 +127,7 @@ export default function Portfolio() {
 
 
               <div className={styles.subtitlecontainer}>
-                <Subtitle subtitle = "What type of projects would you like to check?"/>
+                <Subtitle subtitle = "A selection of my development work"/>
               </div>      
             </motion.section>
 

@@ -47,11 +47,6 @@ export default function Header() {
                 </Link>
             
 
-                <Link href='/biography'> 
-                <li className="nav-item">
-                    <a className="nav-link">Biography</a>
-                </li>
-                </Link>
 
                 <Link href='/contact'> 
                 <li className="nav-item">

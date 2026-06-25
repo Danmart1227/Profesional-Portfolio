@@ -5,8 +5,6 @@ import Subtitle from '../components/subtitle'
 import Text from '../components/text'
 import Button from '../components/button'
 import Submit from '../images/icons/submit.svg'
-import Behance from '../images/icons/behance.svg'
-import Dribble from '../images/icons/dribble.svg'
 import StackOverflow from '../images/icons/stackoverflow.svg'
 import Github from '../images/icons/github.svg'
 import emailjs from '@emailjs/browser';
@@ -154,26 +152,6 @@ export default function Contact() {
                     <div className='row' style={{textAlign:"center"}}>
                     
 
-                        <div className='col-lg-3 col-md-3 col-sm-6'>
-                        <Button
-                            name= "Behance"
-                            img= {Behance}
-                            link="https://www.behance.net/danielmaren"
-                            altText= "behance img"
-                            style = {{backgroundColor:'#000', color:"#58CF68"}}   
-                            />
-                        </div>
-                        
-                        <div className='col-lg-3 col-md-3 col-sm-6'>
-                        <Button
-                            name= "Dribble"
-                            img= {Dribble}
-                            link="https://dribbble.com/DanMart"
-                            altText= "dribble img"
-                            style = {{backgroundColor:'#000', color:"#58CF68"}}   
-                            />
-                        </div>
-                        
                         <div className='col-lg-3 col-md-3 col-sm-6'>
                         <Button
                             name= "Stackoverflow"

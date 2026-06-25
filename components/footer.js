@@ -32,7 +32,7 @@ export default function Footer () {
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dvoidesign/">
                         <i class="fa-brands fa-square-instagram fa-3x"></i>
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-martinez-developer/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/danielmartweb">
                         <i class="fa-brands fa-linkedin fa-3x"></i>
                     </a>
 
@@ -42,12 +42,6 @@ export default function Footer () {
             <div style={{textAlign:"left", left:"15px"}} className={styles.list}>
                 <h2>Network</h2>
                     <ul style={{margin:"0", padding:"0"}}>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/danielmaren">
-                        <li>Behance</li>
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/DanMart">
-                        <li>Dribble</li>
-                        </a>
 
                         <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/20404951/daniel-martinez">
                         <li>StackOverflow</li>
@@ -64,11 +58,6 @@ export default function Footer () {
                 <h2 >About Me</h2>
                     <ul>
 
-                        <Link href='/biography'>
-                            <a >
-                            <li>Biography</li>
-                            </a>
-                        </Link>
 
                         <Link href='/contact'>
                             <a >

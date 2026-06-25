@@ -4,7 +4,6 @@ import Simon from '../images/development/simon.png'
 import Notes from '../images/development/notes.png'
 import Dog from '../images/development/dog.png'
 import Panda from '../images/development/pandaflow.jpg'
-import Crypto from '../images/development/crypto.png'
 import Acs from '../images/design/acs.jpg'
 import Sarah from '../images/design/sarah.jpg'
 import Amazon from '../images/design/amazon.jpg'
@@ -32,7 +31,7 @@ const card = [
         id: 1,
         img: Img,
         title: "My world",
-        text: "Personal portfolio, next js, framer motion",
+        text: "Personal portfolio site — Next.js, Framer Motion",
         btnText: "Check Code",
         link: "https://github.com/Danmart1227/Profesional-Portfolio",
         category: "development",
@@ -62,7 +61,7 @@ const card = [
         id: 4,
         img: Dog,
         title: "Dog Love",
-        text: "Landing Page, Bootstrap",
+        text: "Responsive landing page — Bootstrap",
         btnText: "Check Code",
         link: "https://github.com/Danmart1227/DogLove-Page",
         category: "development",
@@ -73,19 +72,9 @@ const card = [
         id: 5,
         img: Panda,
         title: "Panda Flow Blog",
-        text: "Node Js, EJS, MongoDB",
+        text: "Blog with stored posts — Node.js, EJS, MongoDB",
         btnText: "Check Code",
         link: "https://github.com/Danmart1227/Panda-Blog",
-        category: "development",
-    },
-    {
-        key: 6,
-        id: 6,
-        img: Crypto,
-        title: "Panda Token",
-        text: "Motoko, Blockchain",
-        btnText: "Check Code",
-        link: "https://github.com/Danmart1227/Crypto-Token",
         category: "development",
     },
     

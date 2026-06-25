@@ -5,7 +5,6 @@ import Title from '../components/title.js'
 import Subtitle from '../components/subtitle'
 import Paragraph from '../components/paragraph'
 import BorderAnimation from '../components/borderAnimation'
-import ImageCarousel from '../components/imageCarousel'
 import SansImg from '../images/sans.gif'
 
 /*paragraph layout*/
@@ -70,7 +69,7 @@ export default function Home() {
 
             
 
-            <div className="col-lg-6" style={textStyle}>
+            <div className="col-lg-12" style={textStyle}>
               <Paragraph text="Rather than box myself into one stack, 
               I take a broad approach and keep learning across tools. 
               You can browse the skills and tools I work with 
@@ -79,9 +78,6 @@ export default function Home() {
               />
             </div>
 
-            <div className="col-lg-6" >
-              <ImageCarousel/>
-            </div>
 
           </div>
 

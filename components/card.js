@@ -14,7 +14,7 @@ const text = {
   fontFamily: "'Plus Jakarta Sans', sans-serif",
   fontSize: "1.2rem",
   textTransform:"capitalize",
-  letterSpacing:"5px",
+  letterSpacing:"2px",
   marginBottom:"30px"
 }
 
@@ -25,7 +25,7 @@ export default function Card(props) {
   return (
 
             <div className="card" style={{width: "18rem"}}>
-                <Image src={props.img} className="card-img-top" alt="card image" width={300} height={300}/>
+                <Image src={props.img} className="card-img-top" alt="card image" width={288} height={288}/>
                     <div className="card-body bg-black">
                     <h5 className="card-title" style={title}>{props.title}</h5>
                     <hr style={{borderColor:"#fff"}}></hr>
